@@ -1,28 +1,40 @@
-name: I ♥️ Startup
-favicon: null
-layout_spectrum: 0.7655638279393315
-typography_spectrum: 0.8569540861062706
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.8172043
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#3C493F'
-    - '#7E8D85'
-    - '#B3BFB8'
-    - '#F0F7F4'
-    - '#A2E3C4'
+  saturation: 0.3647016717586666
   brandStrength: 0.9984199169557542
   lightness: 0.6236936512868851
-  saturation: 0.36470167175866663
+  brandColors:
+    - '#FFFFFF'
+    - '#BB252E'
+    - '#1A1919'
+    - '#C4C4C4'
+    - '#464545'
   rhythmicContrast: 0.7183166614267975
-purpose: []
+typography_spectrum: 0.8569540861062706
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: I ♥️ Startup
