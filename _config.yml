@@ -1,8 +1,4 @@
-favicon: null
-cta:
-  bucket: null
-  version: null
-  domain: null
+name: I ♥️ Startup
 opengraph:
   image: null
   type: null
@@ -13,28 +9,32 @@ collections:
       number: 15
       paginate: true
       navigable: true
+    permalink:
+      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-    permalink:
-      path: '/:title/'
 purpose: []
 color:
-  saturation: 0.3647016717586666
+  saturation: 0.702509
   brandStrength: 0.9984199169557542
-  rhythmicContrast: 0.7183166614267975
+  lightness: 0.4301075
   brandColors:
     - '#FFFFFF'
     - '#BB252E'
     - '#1A1919'
     - '#C4C4C4'
     - '#464545'
-  lightness: 0.6236936512868851
-typography_spectrum: 0.3530466
-layout_spectrum: 0.2903226
+  rhythmicContrast: 0.797491
+typography_spectrum: 0
+cta:
+  bucket: null
+  version: null
+  domain: null
 analytics:
   twitter: null
   google: null
   facebook: null
-name: I ♥️ Startup
+favicon: null
+layout_spectrum: 0.2903226
